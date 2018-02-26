@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:id="@+id/anim_happ"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/happ_1" android:duration="50" />
+    <item android:drawable="@drawable/happ_2" android:duration="50" />
+    <item android:drawable="@drawable/happ_3" android:duration="50" />
+    <item android:drawable="@drawable/happ_4" android:duration="50" />
+    <item android:drawable="@drawable/happ_5" android:duration="50" />
+    <item android:drawable="@drawable/happ_6" android:duration="50" />
+    <item android:drawable="@drawable/happ_7" android:duration="50" />
+    <item android:drawable="@drawable/happ_8" android:duration="50" />
+    <item android:drawable="@drawable/happ_9" android:duration="50" />
+    <item android:drawable="@drawable/happ_10" android:duration="50" />
+    <item android:drawable="@drawable/happ_11" android:duration="50" />
+    <item android:drawable="@drawable/happ_12" android:duration="50" />
+    <item android:drawable="@drawable/happ_13" android:duration="50" />
+    <item android:drawable="@drawable/happ_14" android:duration="50" />
+    <item android:drawable="@drawable/happ_15" android:duration="50" />
+    <item android:drawable="@drawable/happ_16" android:duration="50" />
+</animation-list>

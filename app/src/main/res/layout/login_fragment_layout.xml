@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/chitchat"
+        android:layout_width="100dp"
+        android:layout_margin="10dp"
+        android:layout_height="100dp"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_80"
+        android:layout_marginRight="@dimen/dimen_80"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="12dp">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_16">
+
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="@color/darker_grey"
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/eTextUsername"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:colorControlNormal="@color/colorAccent"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textColor="@color/darker_grey"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password"
+                android:textColorHint="@color/darker_grey"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/eTextPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:colorControlNormal="@color/colorAccent"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:textColor="@color/darker_grey"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_08"
+                android:background="@color/white"/>
+
+            <Button
+                android:id="@+id/btnLoginIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_08"
+                android:background="@drawable/button_corner_round"
+                android:gravity="center"
+                android:text="@string/sign_in"
+                android:textColor="@color/white"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/loginInProgressBar"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:padding="@dimen/dimen_08"
+        android:visibility="invisible"/>
+</LinearLayout>

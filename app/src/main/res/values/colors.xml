@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f59e13</color>
+    <color name="colorPrimaryDark">#f58c13</color>
+    <color name="colorbackground">#258cc7</color>
+    <color name="colorAccent">#f14f41</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darker_grey">#97000000</color>
+    <color name="colororange">#f59e13</color>
+    <color name="popup_divider_color">#f7f4f4</color>
+    <color name="new_divider_color">#333333</color>
+    <color name="tabcolor">#fcdeaf</color>
+</resources>

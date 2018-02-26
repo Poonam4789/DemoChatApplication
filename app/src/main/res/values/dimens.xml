@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background_height">20dp</dimen>
+    <dimen name="dimen_80">24dp</dimen>
+    <dimen name="dimen_16">26dp</dimen>
+    <dimen name="dimen_08">8dp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="button_radius">30dp</dimen>
+
+    <dimen name="toolbar_header_text">17sp</dimen>
+</resources>

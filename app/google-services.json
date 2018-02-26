@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1022908290310",
+    "firebase_url": "https://demochatapplication-edb2d.firebaseio.com",
+    "project_id": "demochatapplication-edb2d",
+    "storage_bucket": "demochatapplication-edb2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022908290310:android:f32a153da7a90aee",
+        "android_client_info": {
+          "package_name": "com.demo.example.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022908290310-bl3fr46sdqkk69epbau4kbptq49arp1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demo.example.chatapplication",
+            "certificate_hash": "4cdede9bd1ff58b53752cb72f78ea05074915753"
+          }
+        },
+        {
+          "client_id": "1022908290310-lntt4r93akfut6qclijgm61phtfb35ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAynmXK4hhMFGPC1GeVEwiPIk1ALocrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022908290310-lntt4r93akfut6qclijgm61phtfb35ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

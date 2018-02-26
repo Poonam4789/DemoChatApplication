@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/day_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background_grey_corner_round"
+        android:padding="10dp"
+        android:text="Today"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_window_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_below="@+id/day_title">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/popup_divider_color"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:src="@android:drawable/arrow_up_float"/>
+
+        <EditText
+            android:id="@+id/chat_text"
+            android:focusable="true"
+            android:inputType="text"
+            android:imeOptions="actionSearch|actionDone|actionGo|actionSend"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.7">
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/chat_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:src="@android:drawable/ic_menu_camera"/>
+
+        <ImageView
+            android:id="@+id/chat_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.1"
+            android:src="@android:drawable/ic_btn_speak_now"/>
+    </LinearLayout>
+</RelativeLayout>

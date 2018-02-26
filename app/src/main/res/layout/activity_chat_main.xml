@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true"
+    tools:context=".appBase.ChatMainActivity">
+
+    <FrameLayout
+        android:id="@+id/contentlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_tab"
+        android:layout_below="@+id/dashboard_toolbar"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
